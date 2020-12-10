@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'BancaVirtual',
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'ProyectoF1_IPC2.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['D:/Users/bcatu/Repositorios/Byron-Estuardo/Fase-1-Vacaciones/ProyectoF1_IPC2'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
