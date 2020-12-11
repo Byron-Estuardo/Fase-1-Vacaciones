@@ -4,4 +4,4 @@ from django.shortcuts import render
 # First view
 
 def Registro_view(Request):
-    return render(Request,"RegistroClientes.html")
+    return render(Request,"Login.html")
