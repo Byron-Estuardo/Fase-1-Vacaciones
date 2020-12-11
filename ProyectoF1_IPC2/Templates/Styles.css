@@ -1,4 +1,84 @@
-#topnav {
-	background-color: yellow
+body {
+	margin: 0;
+	color: #6a6f8c;
+	font: 'Open Sans',sans-serif;
+	background-color: black;
+	background-image: url("..\Images\Fondo.jpg");
+}
+
+col-1 {
+	height:auto;
+	width: 8.3333333%;
+	background-color:aqua;
+}
+
+col-2 {
+	height: auto;
+	width: 16.66667%;
+	background-color: aqua;
+}
+
+col-3 {
+	height: auto;
+	width: 25%;
+	background-color: aqua;
+}
+
+col-4 {
+	height: auto;
+	width: 33.3333%;
+	background-color: aqua;
+}
+
+col-5 {
+	height: auto;
+	width: 41.66667%;
+	background-color: aqua;
+}
+
+col-6 {
+	height: auto;
+	width: 50%;
+	background-color: aqua;
+}
+
+col-7 {
+	height: auto;
+	width: 58.3333%;
+	background-color: aqua;
+}
+
+col-8 {
+	height: auto;
+	width: 66.66667%;
+	background-color: aqua;
+}
+
+col-9 {
+	height: auto;
+	width: 75%;
+	background-color: aqua;
+}
+
+col-10 {
+	height: auto;
+	width: 83.3333%;
+	background-color: aqua;
+}
+
+col-11 {
+	height: auto;
+	width: 91.66667%;
+	background-color: aqua;
+}
+
+col-12 {
+	height: auto;
+	width: 100%;
+	background-color: aqua;
+}
+
+.login {
+	text-align: center;
 }
 
