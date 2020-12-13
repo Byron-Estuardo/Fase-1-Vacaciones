@@ -27,9 +27,6 @@ def PS_view(Request):
 def PP_view(Request):
     return render(Request,"PP.html")
 
-def PPro_view(Request):
-    return render(Request,"PPRo.html")
-
 def SPresta_view(Request):
     return render(Request,"SPresta.html")
 

@@ -27,8 +27,7 @@
                 </button>
                 <div class="dropdown-content">
                     <a href="http://127.0.0.1:8000/Pagos/Servicios/">Pago de Servicios</a>
-                    <a href="http://127.0.0.1:8000/Pagos/Plantillas/">Pago de Plantillas</a>
-                    <a href="http://127.0.0.1:8000/Pagos/Proveedores/">Pago a Proveedores</a>
+                    <a href="http://127.0.0.1:8000/Pagos/PlantillasyProveedores/">Pago de Plantillas</a>
                 </div>
             </div>
             <a href="http://127.0.0.1:8000/Solicitud-Prestamos/">Solicitud de Prestamos</a>
@@ -43,9 +42,8 @@
             <div class="box">
                 <form>
                     <span id="hi" class="text-center" style="padding-bottom:40px">Transacción entre Cuentas Propias</span>
-
                     <div id="hi" class="input-container">
-                        <label id="hi">Cuenta Origen</label>
+                        <label id="hi">Seleccionar Cuenta</label>
                         <br />
                         <select style="width:100%; height:35px ; font-size:16px ;background-color:transparent; color:maroon; content:'';border:none; border-bottom: 1px solid rgb(231, 76, 60);" id="sele">
                             <option value="0">
@@ -60,23 +58,28 @@
                         </select>
                     </div>
                     <div id="hi" class="input-container">
-                        <label id="hi">Cuenta Destino</label>
+                        <label id="hi">Tipo de Pago</label>
                         <br />
                         <select style="width:100%; height:35px ; font-size:16px ;background-color:transparent; color:maroon; content:'';border:none; border-bottom: 1px solid rgb(231, 76, 60);" id="sele">
                             <option value="0">
-                                Cuenta 1
+                                Pago Planilla
                             </option>
                             <option value="1">
-                                Cuenta 2
-                            </option>
-                            <option value="2">
-                                Cuenta 3
+                                Pago a Proveedores
                             </option>
                         </select>
+                    </div>
+                    <div id="hi" class="input-container">
+                        <input id="hi" type="file" />
+                        <label id="hi">Cargar archivos</label>
                     </div>
                     <div id="hi" class="input-container">
                         <input id="hi" type="number" required="" />
-                        <label id="hi">Monto</label>
+                        <label id="hi">Monto Total</label>
+                    </div>
+                    <div id="hi" class="input-container">
+                        <input id="hi" type="number" />
+                        <label id="hi">Numero de Registros:</label>
                     </div>
                     <button id="hi" type="button" class="btn">Realizar Tranferencia</button>
                 </form>
