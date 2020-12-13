@@ -32,3 +32,6 @@ def PPro_view(Request):
 
 def SPresta_view(Request):
     return render(Request,"SPresta.html")
+
+def Usuario_view(Request):
+    return render(Request,"Usuario.html")

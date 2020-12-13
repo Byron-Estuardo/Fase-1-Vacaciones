@@ -3,10 +3,70 @@
 {% load static %}
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="{% static 'css/Pruebas.css' %}" />
-    <title>Transacciones entre cuentas</title>
+    <link rel="stylesheet" href="{% static 'css/hola.css' %}" />
+    <title>Transacciones entre Cuentas</title>
 </head>
 <body>
+    <header>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Transacciónes
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Transacciónes entre Cuentas Propias</a>
+                    <a href="#">Transacciónes a Cuentas de Terceros</a>
+                </div>
+            </div>
+            <a href="#home">Pre-Autorización de Cheques</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Pagos
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Pago de Servicios</a>
+                    <a href="#">Pago de Plantillas</a>
+                    <a href="#">Pago a Proveedores</a>
+                </div>
+            </div>
+            <a href="#home">Solicitud de Prestamos</a>
+            <a href="#home" class="us" id="Usuario">Usuario</a>
+        </div>
+    </header>
+    <div style="width:100%">
+        <p>hola</p>
+    </div>
+    <div class="grid-container" style="grid-template-columns: 20% 60% 20%;">
+        <div class="item2">
+
+        </div>
+        <div class="item1">
+            <div class="box">
+                <form>
+                    <span id="hi" class="text-center" style="padding-bottom:40px">Transacción entre Cuentas Propias</span>
+
+                    <div id="hi" class="input-container">
+                        <input id="hi" type="text" required="" />
+                        <label id="hi">Nombre de Cuenta</label>
+                    </div>
+                    <div id="hi" class="input-container">
+                        <input id="hi" type="text" required="" />
+                        <label id="hi">Tipo de Cuenta</label>
+                    </div>
+                    <div id="hi" class="input-container">
+                        <input id="hi" type="number" required="" />
+                        <label id="hi">Numero de Cuenta</label>
+                    </div>
+                    <button id="hi" type="button" class="btn">Realizar Tranferencia</button>
+                </form>
+            </div>
+        </div>
+        <div class="item2">
+
+        </div>
+    </div>
 
 </body>
 </html>
