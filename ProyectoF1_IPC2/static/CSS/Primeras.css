@@ -1,4 +1,7 @@
-﻿body {
+﻿* {
+    font-family: 'Comic Sans MS';
+}
+body {
     background-image: url('../Images/Fondo.png');
     background-color: black;
     background-position: center;
@@ -8,7 +11,6 @@
     min-height: 100vh;
     font-family: 'Comic Sans MS';
 }
-
 .text-center {
     color: maroon;
     text-transform: uppercase;
