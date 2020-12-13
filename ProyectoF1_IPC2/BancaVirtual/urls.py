@@ -27,5 +27,7 @@ urlpatterns = [
     path('Pagos/Servicios/', views.PS_view),
     path('Pagos/PlantillasyProveedores/', views.PP_view),
     path('Solicitud-Prestamos/', views.SPresta_view),
-    path('Usuario/', views.Usuario_view)
+    path('Usuario/', views.Usuario_view),
+    path('Usuario/Suspender/', views.Suspender_view),
+    path('Usuario/Reactivar/', views.Reactivar_view)
 ]

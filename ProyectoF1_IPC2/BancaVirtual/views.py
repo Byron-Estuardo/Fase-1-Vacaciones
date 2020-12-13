@@ -32,3 +32,9 @@ def SPresta_view(Request):
 
 def Usuario_view(Request):
     return render(Request,"Usuario.html")
+
+def Suspender_view(Request):
+    return render(Request,"Susp.html")
+
+def Reactivar_view(Request):
+    return render(Request,"Reactivar.html")
