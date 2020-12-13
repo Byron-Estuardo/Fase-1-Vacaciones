@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{% static 'css/Pruebas.css' %}" />
+    <title>Inicio</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Transacciones
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Transacciones entre Cuentas Propias</a>
+                    <a href="#">Transacciones a Cuentas de Terceros</a>
+                </div>
+            </div>
+            <a href="#home">Pre-Autorización de Cheques</a>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Pagos
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Pago de Servicios</a>
+                    <a href="#">Pago de Plantillas</a>
+                    <a href="#">Pago a Proveedores</a>
+                </div>
+            </div>
+            <a href="#home">Solicitud de Prestamos</a>
+            <a href="#home" class="us" id="Usuario">Usuario</a>
+        </div>
+    </header>
+    <div class="grid-container" style="grid-template-columns: 100%;">
+        <div class="item1" id="ima"><p class="text-center">Banco "El Ahorro"</p></div>
+    </div>
+</body>
+</html>
