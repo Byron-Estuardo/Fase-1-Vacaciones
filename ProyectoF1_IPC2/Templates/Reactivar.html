@@ -3,7 +3,7 @@
 {% load static %}
 <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="{% static 'css/hola.css' %}" />
+    <link rel="stylesheet" href="{% static 'css/Otros.css' %}" />
     <title>Transacciones entre Cuentas</title>
 </head>
 <body>
@@ -51,19 +51,13 @@
         <div class="item1">
             <div class="box">
                 <form>
-                    <span class="text-center">Inicio de Sesión</span>
-                    <div class="input-container">
-                        <input type="text" required="" />
-                        <label>Numero de Cuenta</label>
+                    <span class="text-center">Reactivar Cuenta</span>
+                    <div>
+                        <input type="checkbox" required="" />
+                        <label>Desea Reactivar su cuenta?</label>
                     </div>
-                    <div class="input-container">
-                        <input type="password" required="" />
-                        <label>Clave de Acceso</label>
-                    </div>
-                    <div class="input-container">
-                        <a href="http://127.0.0.1:8000/Registro/" style="color:blue">No posee una Cuenta?</a>
-                    </div>
-                    <button type="button" class="btn">Ingresar</button>
+                    <br />
+                    <button type="button" class="btn" style="text-align:center">Aceptar</button>
                 </form>
             </div>
         </div>
